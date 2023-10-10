@@ -25,12 +25,18 @@ body{
     justify-content: space-between;
 }
 
-.flex-d-column {
+.flex-dir-column {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
+.flex-j-space-btw {
+    display: flex;
+    justify-content: space-around;
+}
+
 .container{
     max-width: 1050px;
     /* width: 65 */
@@ -38,7 +44,7 @@ body{
 }
 
 .jumbo-container{
-    max-width: 700px;
+    max-width: 650px;
     /* width: 50% */
     margin: 0 auto;
 }
@@ -127,12 +133,21 @@ section.navigation div.login{
     width: 20%;
 }
 
-span.login-button {
-    color: black;
-    background-color: white;  
+.button {
     border-radius: 1.2rem;
     padding: .5rem 1rem;
-    vertical-align: middle;
+    height: 2rem;
+    /* vertical-align: middle; */
+}
+
+span.button-bg-white {
+    color: black;
+    background-color: white;  
+}
+
+span.button-bg-black {
+    color: white;
+    background-color: black;
 }
 
 section.navigation  nav{
@@ -158,11 +173,16 @@ section#jumbo{
     background-image: url(../img/jumbo.png);
     background-size: cover;
     padding: 3rem 0;
+    text-align: center;
 }
 
 div.jumbotron{
     height: 300px;
-    background-color: #ed81ed;
+    /* background-color: #ed81ed; */
+}
+
+div.header-btn-container {
+    width: 70%;
 }
 
 footer{
@@ -188,4 +208,14 @@ div.button{
 
 .white-text {
     color: white;
+}
+
+h2 {
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
+p {
+    font-size: 1.1rem;
+    padding-bottom: 1.5rem;
 }
