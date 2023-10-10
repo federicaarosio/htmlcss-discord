@@ -99,13 +99,13 @@ header{
 
 section.navigation{
     padding: .8rem 0;
-    background-color: #7ffed3;
+    background-color: #3161e0;
 }
 
 
 header section.navigation > div{
     /* height: 40px; */
-    background-color: goldenrod;
+    background-color: #3161e0;
 }
 
 header section.navigation div.brand,
@@ -118,6 +118,10 @@ header section.navigation div.login{
 section.navigation div.brand,
 section.navigation div.login{
     width: 20%;
+}
+
+section.navigation div.login {
+    color: black;
 }
 
 section.navigation  nav{
@@ -169,4 +173,8 @@ div.button{
     background-color: #feb5c0;
     height: 2rem;
     padding: .25rem .5rem;
+}
+
+.white-text {
+    color: white;
 }
