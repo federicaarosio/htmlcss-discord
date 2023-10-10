@@ -110,7 +110,6 @@ body{
 }
 
 header{
-    background-color: #acd7e5;
     padding: 0 0 .25rem;
     font-size: .9rem;
 }
@@ -142,6 +141,7 @@ section.navigation div.login{
 .btn {
     border-radius: 1.3rem;
     padding: .5rem 1rem;
+    font-size: 1.1rem;
     /* vertical-align: middle; */
 }
 
@@ -182,7 +182,7 @@ section.navigation div.login{
 section#jumbo{
     background-image: url(../img/jumbo.png);
     background-size: cover;
-    padding: 3rem 0;
+    padding: 4rem 0;
     text-align: center;
 }
 
