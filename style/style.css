@@ -221,7 +221,11 @@ h2 {
 
 h3 {
     font-size: 1.8rem;
-    padding-bottom: 1.3rem;
+    padding: 1.2rem;
+}
+
+h3.ready-for-adventure {
+    padding-top: 0;
 }
 
 p {
@@ -235,4 +239,12 @@ p {
 
 img.stars {
     width: 50%;
+}
+
+footer > h3 > p.italian {
+    height: .6rem;
+}
+
+img.it-flag {
+    height: .7rem;
 }
