@@ -62,12 +62,12 @@ body{
 }
 
 .column-big{
-    background-color: #1e8ffe;
+    /* background-color: #1e8ffe; */
     width: 60%;
 }
 
 .column-small{
-    background-color: #febfca;
+    /* background-color: #febfca; */
     width: 40%;
 }
 
@@ -212,10 +212,10 @@ div.button{
 
 h2 {
     font-size: 3rem;
-    padding-bottom: 2rem;
+    padding: 1rem;
 }
 
 p {
     font-size: 1.1rem;
-    padding-bottom: 1.5rem;
+    padding: 1rem;
 }
