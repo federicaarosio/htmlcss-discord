@@ -37,6 +37,11 @@ body{
     justify-content: space-around;
 }
 
+.flex-j-start {
+    display: flex;
+    justify-content: flex-start;
+}
+
 .container{
     max-width: 1050px;
     /* width: 65 */
@@ -241,10 +246,22 @@ img.stars {
     width: 50%;
 }
 
-footer > h3 > p.italian {
+footer > h3 > div.italian {
     height: .6rem;
+}
+
+.lg-italian {
+    padding-bottom: 1.2rem;
 }
 
 img.it-flag {
     height: .7rem;
+}
+
+.padding-left {
+    padding-left: 1.2rem;
+}
+
+.padding-right {
+    padding-right: 1.2rem;
 }
