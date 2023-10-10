@@ -120,8 +120,12 @@ section.navigation div.login{
     width: 20%;
 }
 
-section.navigation div.login {
+span.login-button {
     color: black;
+    background-color: white;  
+    border-radius: 1.2rem;
+    padding: .5rem 1rem;
+    vertical-align: middle;
 }
 
 section.navigation  nav{
@@ -144,8 +148,8 @@ section.navigation div.login{
 
 
 section#jumbo{
-    /* height: 300px; */
-    background-color: #00008a;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
     padding: 3rem 0;
 }
 
