@@ -9,6 +9,8 @@ body{
     font-family: 'Cabin', sans-serif;
 }
 
+
+/* Flex */
 .flex-centered{
     display: flex;
     align-items: center;
@@ -41,6 +43,7 @@ body{
     display: flex;
     justify-content: flex-start;
 }
+/* ----- */
 
 .container{
     max-width: 1050px;
@@ -84,11 +87,13 @@ body{
 
 .column-70{
     /* background-color: #20b1a9 ; */
+    /* height: 500px; */
     width: 70%;
 }
 
 .column-30{
     /* background-color: #ef7f7f; */
+    /* height: 500px; */
     width: 30%;
 }
 
