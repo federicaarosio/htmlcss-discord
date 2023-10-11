@@ -47,13 +47,11 @@ body{
 
 .container{
     max-width: 1050px;
-    /* width: 65 */
     margin: 0 auto;
 }
 
 .jumbo-container{
     max-width: 650px;
-    /* width: 50% */
     margin: 0 auto;
 }
 
@@ -70,35 +68,27 @@ body{
 }
 
 .column-big{
-    /* background-color: #1e8ffe; */
     width: 60%;
 }
 
 .column-small{
-    /* background-color: #febfca; */
     width: 40%;
 }
 
 .column-single{
-    /* background-color: #228a22; */
     width: 100%;
     height: 900px;
 }
 
 .column-70{
-    /* background-color: #20b1a9 ; */
-    /* height: 500px; */
     width: 70%;
 }
 
 .column-30{
-    /* background-color: #ef7f7f; */
-    /* height: 500px; */
     width: 30%;
 }
 
 .column-quarters{
-    /* border: 2px dashed white; */
     width: calc(100% / 4);
 }
 
@@ -109,7 +99,7 @@ body{
 }
 
 .bg-grey{
-    background-color: #d2d2d2;
+    background-color: #f5f5f5;
 }
 
 header{
@@ -123,9 +113,7 @@ header section.navigation{
     font-size: 1.1rem;
 }
 
-
 header section.navigation > div{
-    /* height: 40px; */
     background-color: #3161e0;
 }
 
@@ -134,7 +122,6 @@ header section.navigation nav,
 header section.navigation div.login{
     padding: .5rem;
 }
-
 
 section.navigation div.brand,
 section.navigation div.login{
@@ -145,7 +132,6 @@ section.navigation div.login{
     border-radius: 1.3rem;
     padding: .5rem 1rem;
     font-size: 1.1rem;
-    /* vertical-align: middle; */
 }
 
 span.button-bg-white {
@@ -172,7 +158,6 @@ section.navigation  nav ul{
 }
 
 section.navigation  nav ul li{
-    /* display: inline-block; */
     padding: 0 .25rem;
 }
 
@@ -191,7 +176,6 @@ section#jumbo{
 
 div.jumbotron{
     height: 300px;
-    /* background-color: #ed81ed; */
 }
 
 div.header-btn-container {
@@ -254,10 +238,6 @@ footer > section > div > h3 {
     color: #7289da;
 }
 
-footer > h3 > div.italian {
-    height: .6rem;
-}
-
 .lg-italian {
     padding-bottom: 1.2rem;
 }
@@ -289,4 +269,15 @@ footer > section > div > div > ul >li:first-child {
 
 footer > section.navigation {
     padding-bottom: 4rem;
+}
+
+div.wave-divider {
+    /* width: 100%; */
+    height: 90px;
+    background-image: url('../img/wave.svg');
+    filter: opacity(.04);
+}
+
+div.wave-divider.inverted {
+    transform: rotate(180deg);
 }
